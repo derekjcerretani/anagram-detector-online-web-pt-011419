@@ -14,7 +14,7 @@ class Anagram
     #sort the word array and initalize word
     #compare each word of that array to the word initialized
     #return the anagrams
-    array.find_all { |anagram| anagram.split(//).sort == @word.split(//).sort }
+    array.find_all { |anagram|fart anagram.split(//).sort == @word.split(//).sort }
   end
 
 end
